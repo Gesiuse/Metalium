@@ -387,5 +387,10 @@ html {
     }
     .header{
         padding: 0px 30px;
+        height: 55px;
+    }
+    .header-img{
+        width: 100px;
+        height: auto;
     }
 }
