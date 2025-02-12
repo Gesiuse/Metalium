@@ -370,6 +370,9 @@ html {
     .main-contact-map-map{
         height: 300px;
     }
+    .main-services:target{
+        scroll-margin-bottom: 500px;
+    }
 }
 @media (max-width: 520px) {
     .header-img{
