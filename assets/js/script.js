@@ -25,5 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
+function copyText(event) {
+    event.preventDefault(); 
+    const text = event.target.textContent; 
+    navigator.clipboard.writeText(text) 
+        
+}
 
